@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Giriş Yap{% endblock %}
+{% block content %}
+<form method="POST">
+	<h3 align="center">
+		Giriş
+	</h3>
+	<div class="form-group">
+		<label for="email">E-Posta Adresi</label>
+		<input
+			type="text"
+			id="email"
+			name="email"
+			class="form-control"
+			placeholder="E-Posta adresi girin"/>
+		<label for="password">Şifre</label>
+		<input
+			type="password"
+			id="password"
+			name="password"
+			class="form-control"
+			placeholder="Şifre girin"/>
+		<br/>
+		<div align="center"><button class="btn btn-primary" type="submit">Giriş</button></div>
+	</div>
+</form>
+{% endblock %}
+

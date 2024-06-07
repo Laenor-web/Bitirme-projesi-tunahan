@@ -1,0 +1,14 @@
+venv/
+
+
+
+.idea/
+
+
+
+__pycache__/
+
+
+workspace.xml
+
+instance/
